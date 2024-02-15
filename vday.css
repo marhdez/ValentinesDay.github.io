@@ -91,3 +91,10 @@ display: none;
 h5{
     text-align: right;
 }
+
+@media only screen and (max-width: 480px) {
+    body {
+      font-size: 14px;
+      /* Otros estilos para pantallas más pequeñas */
+    }
+  }
