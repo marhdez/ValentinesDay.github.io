@@ -7,7 +7,12 @@ body{
     align-items: center;
     justify-content: center;
 }
-
+@media (max-width: 480px) {
+    body {
+      font-size: 12px;
+      /* Otros estilos para pantallas más pequeñas */
+    }
+  }
 .valentines_card{
     position: relative;
     cursor: pointer;
@@ -23,6 +28,17 @@ body{
     margin-top: 100px;
     position:relative;
 }
+@media (max-width: 480px) {
+    .front_img{
+        width: 250px;
+        margin-right: -50px;
+        margin-left: -50px;
+        margin-top: 100px;
+        position:relative;
+    }
+  }
+
+
 
 .inside_img{
     width: 350px;
@@ -57,6 +73,20 @@ display: none;
     width: 450px;
     height: 800px;
 }
+@media (max-width: 480px) {
+    .front_card{
+        position: relative;
+        overflow: hidden;
+        transform-origin: left;
+        margin: 40px auto;
+        padding: 19px;
+        background-color: whitesmoke;
+        text-align: center;
+        bow-shadow: 0 24px 40px -8px #ff1493 ;
+        width: 250px;
+        height: 600px;
+    }
+  }
 
 .inside_card{
     position: absolute;
@@ -73,6 +103,23 @@ display: none;
     left:0;
     top: 0;
 }
+@media (max-width: 480px) {
+    .inside_card{
+        position: absolute;
+        overflow: hidden;
+        transform-origin: left;
+        margin: 40px auto;
+        padding: 19px;
+        background-color: whitesmoke;
+        text-align: center;
+        box-shadow: 0 24px 40px -8px #ff1493 ;
+        width: 250px;
+        height: 600px;  
+        z-index: -1;
+        left:0;
+        top: 0;
+    }
+  }
 
 .valentines_card audio{
     display: none;
@@ -92,9 +139,3 @@ h5{
     text-align: right;
 }
 
-@media only screen and (max-width: 480px) {
-    body {
-      font-size: 14px;
-      /* Otros estilos para pantallas más pequeñas */
-    }
-  }
