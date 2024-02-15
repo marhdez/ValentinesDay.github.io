@@ -84,7 +84,7 @@ display: none;
         text-align: center;
         bow-shadow: 0 24px 40px -8px #ff1493 ;
         width: 250px;
-        height: 600px;
+        height: 500px;
     }
   }
 
@@ -114,7 +114,7 @@ display: none;
         text-align: center;
         box-shadow: 0 24px 40px -8px #ff1493 ;
         width: 250px;
-        height: 600px;  
+        height: 500px;  
         z-index: -1;
         left:0;
         top: 0;
